@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Iwima</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Institut Widya Pratama</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../indexhome.html">Home</a></li>
+            <li>Register</li>
+        </ul>
+    </nav>
+    <h1>Formulir Registrasi</h1>
+    <form action="">
+        <label for="namalengkap">Nama Lengkap :<br>
+        <input type="text" id="namalengkap" name="namalengkap" placeholder="Ketik nama..."></label><br><br>
+        <label for="tempatlahir">Tempat Lahir :<br>
+        <input type="text" id="tempatlahir" name="tempatlahir" placeholder="Ketik tempat lahir..."></label><br><br>
+        <label for="tanggallahir">Tanggal Lahir :<br>
+        <input type="date" id="tanggallahir" name="tanggallahir"></label><br><br>
+        <label for="jeniskelamin">Jenis Kelamin :<br>
+        <input type="radio" id="Laki-laki" name="jeniskelamin" value="Laki-laki"></label>
+        <label for="Laki-laki">Laki-laki</label><br>
+        <input type="radio" id="Perempuan" name="jeniskelamin" value="Perempuan"></label>
+        <label for="Perempuan">Perempuan</label><br><br>
+        <label for="asal_sekolah">asal Sekolah : </label><br>
+        <input type="text" id="asal_sekolah" name="asal_sekolah"><br><br>
+        <label for="tahun_lulus">Tahun Lulus : </label><br>
+        <input type="number" id="tahun_lulus" name="tahun_lulus"></input><br><br>
+        <label for="kota">Kota/Kabupaten : </label>
+        <select name="kota" id="kota">
+        <option value="Kota pekalonga">Kota Pekalongan</option>
+        <option value="Kab Pekalongan">Kab Pekalongan</option>
+        <option value="Kab Pemalang">Kab Pemalang</option>
+        <option value="Kab Batang">Kab Batang</option>
+        </select><br><br>
+        <label for="alamat">Alamat Tinggal : </label><br>
+        <textarea name="alamat" id="alamat" rows="4"></textarea><br><br>
+        <label for="nomor_hp">Nomor Hp : </label><br>
+        <input type="tel" name="nomor_hp" id="nomor_hp"><br><br>
+        <button type="submit">Daftar</button>
+    </form>
+    <footer>
+        <p>&copy; Institut Widya Pratama</p>
+    </footer>
+</body>
+</html>
